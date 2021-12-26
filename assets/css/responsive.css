@@ -1,0 +1,296 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 900px;  
+    }
+    .header-square {
+        width: 560px;
+    }
+    .interactive-image img {
+        width: 600px;
+        height: 410px;
+    }
+    .creation-images {
+        gap: 20px;
+    }
+    .creation-wrapper{
+        height: 1100px;
+    }
+    .creation-images img {
+        width: 210px;
+    }
+    .interactive-vr h2 {
+        font-size: 2.2rem;
+    }
+    .interactive-vr {
+        width: 450px;
+        height: 260px;
+        padding-top: 0px;
+        padding-left: 30px;
+        right: 30px;
+    }
+    .image p {
+        font-size: 1.5rem;
+    }    
+    .image {
+        width: 210px;
+        height: 370px;
+    }    
+}
+
+
+@media (max-width: 950px) {
+    .container {
+        width: 700px;  
+    }
+    .interactive-image img {
+        width: 730px;
+        height: 500px;
+        position: relative;
+        bottom: 0;
+    }
+    .interactive-vr {
+        position: relative;
+        bottom: 0;
+        right: 0;
+    }
+    .interactive-vr {
+        width: 600px;
+        height: 320px;
+    }
+    .interactive-vr p {
+        font-size: 1.5rem;
+    }
+    .interactive-wrapper {
+        flex-direction: column;
+        height: 1000px;
+    }
+    .interactive-vr h2 {
+        font-size: 3.3rem;
+    }
+    .creation-wrapper{
+        height: 2500px;
+    }
+    .creation-images {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    .creation-top button {
+        bottom: 50px;
+        right: calc(50% - 80px);
+    }
+    .image {
+        width: 654px;
+        height: 240px;
+    }
+    .image p {
+        font-size: 2rem;
+    } 
+    .image-one {
+        background-image: url(/assets/images/mobile/image-deep-earth.jpg);
+    }
+    .image-two {
+        background-image: url(/assets/images/mobile/image-night-arcade.jpg);
+    }
+    .image-three {
+        background-image: url(/assets/images/mobile/image-soccer-team.jpg);
+    }
+    .image-four {
+        background-image: url(/assets/images/mobile/image-grid.jpg);
+    }
+    .image-five {
+        background-image: url(/assets/images/mobile/image-from-above.jpg);
+    }
+    .image-six {
+        background-image: url(/assets/images/mobile/image-pocket-borealis.jpg);
+    }
+    .image-seven {
+        background-image: url(/assets/images/mobile/image-curiosity.jpg);
+    }
+    .image-eight {
+        background-image: url(/assets/images/mobile/image-fisheye.jpg);
+    }    
+}
+
+@media (max-width: 750px) {
+    .header-top {
+        position: inherit;
+    }
+    .menu {
+        height: 130px;
+        width: 100vw;
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        background-color: rgb(0, 0, 0);
+        height: 100vh;
+
+
+        display: none;
+    }
+    .logo-mobile {
+        display: block;
+        margin-top: 70px;
+        margin-left: 50px;
+    }
+    .menu-hamburguer {
+        margin-right: 50px;
+    }
+    .menu ul {
+        flex-direction: column;
+        margin-top: 15%;
+        margin-left: 50px;
+    }
+    .menu ul li {
+        padding: 20px 0;
+        margin: 2px;
+    }
+    .menu ul li a{
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        color: rgb(173, 173, 173);
+    }
+    .menu ul li a:hover{
+        border-bottom: 3px solid rgb(255,255,255);
+    }
+    .menu ul li a:hover::after {
+        height: 0px;
+        margin: 0px auto;    
+   }
+   .menu-hamburguer {
+        display: block;
+    }
+    .creation-top h2 {
+        margin: auto;
+    }
+    .container {
+        width: 500px;  
+    }
+    .header-square {
+        width: 500px;
+    }
+    .header-square h1 {
+        font-size: 3.7rem;
+    }
+    .interactive-image img {
+        width: 500px;
+        height: 340px;
+    }
+    .interactive-vr {
+        width: 500px;
+        text-align: center;
+    }
+    .image {
+        width: 500px;
+        height: 183px;
+    }
+    .creation-wrapper{
+        height: 2100px;
+        margin-bottom: 80px;
+    }
+
+    footer {
+        height: 1050px;
+    }
+    .footer-wrapper {
+        flex-direction: column;
+        height: 700px;
+    }
+    .footer-top {
+        text-align: center;
+    }
+    .footer-logo {
+        margin-bottom: 50px;
+    }
+    .footer-logo img{
+        width: 290px;
+    }
+    .footer-menu {
+        height: 410px;
+    }
+    .footer-menu ul {
+        flex-direction: column;
+    }
+    .footer-menu ul li {
+        margin: 30px auto;
+        height: 20px;
+    }
+    .footer-menu ul li a{
+        font-size: 1.2rem;
+    }
+    .footer-botton {
+        width: 100%;
+        height: 220px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .social-media {
+        width: 300px;
+        height: 80px;
+        margin-left: 0px;
+    }
+    .footer-images img {
+        width: 40px;
+    }
+    .all-rights{
+        font-size: 1.4rem;
+        margin-top: 30px;
+    }  
+}
+
+@media (max-width: 550px) {
+    .container {
+        width: 360px;  
+    }
+    .header-square {
+        width: 350px;
+        height: 200px;
+    }
+    .header-square h1{
+        font-size: 2.4rem;
+    }
+    .interactive-image img {
+        width: 360px;
+        height: 245px;
+        margin-bottom: 50px;
+    }
+    .interactive-vr {
+        width: 360px;
+        height: 320px;
+    }
+    .interactive-vr p {
+        font-size: 1.4rem;
+    }
+    .interactive-wrapper {
+        flex-direction: column;
+        height: 800px;
+    }
+    .interactive-vr h2 {
+        font-size: 2.2rem;
+    }
+
+
+    .creation-wrapper{
+        height: 1600px;
+    }
+    .image {
+        width: 360px;
+        height: 130px;
+    }
+    .image p {
+        font-size: 1.5rem;
+    } 
+    .creation-top h2 {
+        font-size: 2.5rem;
+    }
+    .all-rights{
+        font-size: 1rem;
+    } 
+
+}
