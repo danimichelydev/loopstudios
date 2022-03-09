@@ -2,18 +2,6 @@
 
 Esta é uma solução para o [Loopstudios landing page challenge do Frontend Mentor](https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw). Eu construí esta página com o objetivo de melhorar minhas habilidades de codificação ao construir projetos reais.
 
-## índice
-
-- [Visão Geral](#overview)
-  - [O Desafio](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [Meu processo](#my-process)
-  - [Construído com](#built-with)
-  - [O que eu aprendi](#what-i-learned)
-- [Autora](#author)
-
-
 
 ## Visão Geral
 
