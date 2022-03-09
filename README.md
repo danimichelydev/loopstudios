@@ -32,7 +32,7 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- URL da solução: [Acesse o desafio publicado](https://dani-michely-loopstudios.netlify.app/)
+- URL da solução: https://dani-michely-loopstudios.netlify.app/
 
   
 
